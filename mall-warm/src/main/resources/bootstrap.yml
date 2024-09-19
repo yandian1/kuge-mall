@@ -1,0 +1,28 @@
+# 开发
+spring:
+  profiles: default
+  application:
+    name: mall-warm
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      config:
+        server-addr: 192.168.198.128:30284
+        namespace: b8de26be-49e2-4ed3-befa-2845a8672de8
+        # 用于共享的配置文件
+        shared-configs:
+          - data-id: mall-mysql.yaml
+            group: DEFAULT_GROUP
+
+        # 常规配置文件
+        # 优先级大于 shared-configs，在 shared-configs 之后加载
+        extension-configs:
+          - data-id: mall-warm.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+      discovery:
+        server-addr: 192.168.198.128:30284
+        namespace: b8de26be-49e2-4ed3-befa-2845a8672de8
