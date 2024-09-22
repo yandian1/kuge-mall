@@ -261,12 +261,15 @@
    ![执行sql文件.png](/document/assets/img/mysql/执行sql文件.png)
 4. 展示库表
    ![库表.png](/document/assets/img/mysql/库表.png)
-## 开发工具
-* mysql5.7
-* redis
-* rabbitmq
-* jdk8
-* idea
+
+## rabbitmq 配置
+1. 安装 rabbitmq 并登录
+2. 添加用户 mall
+   ![添加用户.png](/document/assets/img/rabbitmq/添加用户.png)
+3. 创建虚拟主机 mall
+   ![添加虚拟主机.png](/document/assets/img/rabbitmq/添加虚拟主机.png)
+3. 将虚拟主机mall，分配赋权给用户 mall
+   ![分配虚拟主机.png](/document/assets/img/rabbitmq/分配虚拟主机.png)
 
 ## maven 配置
 1. 下载 maven
@@ -293,3 +296,10 @@ git clone git@github.com:xiexianbao/kuge-mall.git
 ## 启动服务
 ![启动服务.png](/document/assets/img/idea/启动服务.png)
 以上服务不需要按某种特定的顺序依次执行，全部启动即可
+
+## 开发工具
+* mysql5.7
+* redis
+* rabbitmq
+* jdk8
+* idea
