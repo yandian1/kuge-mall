@@ -254,7 +254,7 @@
 ![配置列表.png](/document/assets/img/nacos/配置列表.png)
 
 ## mysql 配置
-1. 安装 mysql
+1. 安装 mysql 
 2. 创建数据库 kuge-mall
    ![创建数据库.png](/document/assets/img/mysql/创建数据库.png)
 3. 导入sql文件（文件位置：kuge-mall/document/mysql/mall.sql）
@@ -268,13 +268,28 @@
 * jdk8
 * idea
 
+## maven 配置
+1. 下载 maven
+2. 配置镜像源
+   ```shell
+       <mirror>
+         <id>alimaven</id>
+         <name>aliyun maven</name>
+         <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+         <mirrorOf>central</mirrorOf>        
+       </mirror>
+   ```
+3. 设置自定义本地仓库地址
+   ```shell
+   <localRepository>path/to/repository</localRepository>
+   ```
+
+## 拉取代码
+```shell
+# 拉取代码
+git clone git@github.com:xiexianbao/kuge-mall.git
+```
+
 ## 启动服务
-* MallGatewayApplication：网关服务
-* MallAuthApplication：认证服务
-* MallAdminApplication：管理后台服务
-* MallProductApplication：商品服务
-* MallOrderApplication：订单服务
-* MallCartApplication：购物车服务
-* MallMemberApplication：用户服务
-* MallSaleApplication：营销服务
-* MallThirdpartApplication：第三方集成服务
+![启动服务.png](/document/assets/img/idea/启动服务.png)
+以上服务不需要按某种特定的顺序依次执行，全部启动即可
