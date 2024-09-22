@@ -1,6 +1,9 @@
 # 酷鸽商城后端服务
 
-1. [项目简介](#项目简介)
+
+该项目是一个在线购物系统。包括管理端和C端。管理员可在后台创建商品、营销规则定制、管理订单售后，管理店铺、运费模板；普通消费者可在C端系统浏览商品、参与秒杀、使用优惠券、支付订单、退换货。
+
+## 目录
 1. [开发工具介绍](#开发工具介绍)
 1. [nacos配置](#nacos配置)
 1. [mysql配置](#mysql配置)
@@ -8,10 +11,7 @@
 1. [maven配置](#maven配置)
 1. [H5端演示图例](#H5端演示图例)
 1. [管理端演示图例](#管理端演示图例)
-   
 
-## 项目简介
-该项目是一个在线购物系统。包括管理端和C端。管理员可在后台创建商品、营销规则定制、管理订单售后，管理店铺、运费模板；普通消费者可在C端系统浏览商品、参与秒杀、使用优惠券、支付订单、退换货。
 
 ## 开发工具介绍
 * jdk8
@@ -57,14 +57,14 @@ tips：需要先安装好上面的开发工具，再进行后面开发工具的�
 
 ## maven配置
 1. 下载 maven
-2. 配置镜像源
+2. 配置阿里镜像源
    ```shell
-       <mirror>
-         <id>alimaven</id>
-         <name>aliyun maven</name>
-         <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-         <mirrorOf>central</mirrorOf>        
-       </mirror>
+   <mirror>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <mirrorOf>central</mirrorOf>        
+   </mirror>
    ```
 3. 设置自定义本地仓库地址
    ```shell
@@ -79,7 +79,7 @@ git clone git@github.com:xiexianbao/kuge-mall.git
 
 ## 启动服务
 ![启动服务.png](/document/assets/img/idea/启动服务.png)
-以上服务不需要按某种特定的顺序依次执行，全部启动即可
+以上服务不需要按某种特定的顺序依次执行，全部启动即可；启动后端服务之后可启动[H5](https://github.com/xiexianbao/kuge-mall-h5)和[后台管理](https://github.com/xiexianbao/kuge-mall-admin)前端项目
 
 
 ## H5端演示图例
