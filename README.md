@@ -242,10 +242,10 @@
 
 ## nacos 配置
 
-### 1. 安装 nacos 并登录
-### 2. 创建命名空间 mall-dev
+#### 1. 安装 nacos 并登录
+#### 2. 创建命名空间 mall-dev
 ![创建命名空间.png](/document/assets/img/nacos/创建命名空间.png)
-### 3. 导入配置
+#### 3. 导入配置
 - 在配置列表界面导入配置文件
 ![导入配置.png](/document/assets/img/nacos/导入配置.png)
 - 从项目的document文件夹中选中配置文件上传
