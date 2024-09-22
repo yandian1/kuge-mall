@@ -246,11 +246,11 @@
 ### 2. 创建命名空间 mall-dev
 ![创建命名空间.png](/document/assets/img/nacos/创建命名空间.png)
 ### 3. 导入配置
-在配置列表界面导入配置文件
+- 在配置列表界面导入配置文件
 ![导入配置.png](/document/assets/img/nacos/导入配置.png)
-从项目的document文件夹中选中配置文件上传
+- 从项目的document文件夹中选中配置文件上传
 ![配置文件.png](/document/assets/img/nacos/配置文件.png)
-生成如下的配置列表代表成功
+- 生成如下的配置列表代表成功
 ![配置列表.png](/document/assets/img/nacos/配置列表.png)
 
 ## 开发工具
