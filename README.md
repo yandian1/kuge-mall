@@ -253,6 +253,14 @@
 3.3 生成如下的配置列表代表成功
 ![配置列表.png](/document/assets/img/nacos/配置列表.png)
 
+## mysql 配置
+1. 安装 mysql
+2. 创建数据库 kuge-mall
+   ![创建数据库.png](/document/assets/img/mysql/创建数据库.png)
+3. 导入sql文件（文件位置：kuge-mall/document/mysql/mall.sql）
+   ![执行sql文件.png](/document/assets/img/mysql/执行sql文件.png)
+4. 展示库表
+   ![库表.png](/document/assets/img/mysql/库表.png)
 ## 开发工具
 * mysql5.7
 * redis
