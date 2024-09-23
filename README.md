@@ -12,6 +12,8 @@
 1. [mysql配置](#mysql配置)
 1. [rabbitmq配置](#rabbitmq配置)
 1. [maven配置](#maven配置)
+1. [联系作者](#联系作者)
+1. [鸣谢](#鸣谢)
 1. [H5端演示图例](#H5端演示图例)
 1. [管理端演示图例](#管理端演示图例)
 
@@ -83,7 +85,18 @@ git clone git@github.com:xiexianbao/kuge-mall.git
 ## 启动服务
 ![启动服务.png](/document/assets/img/idea/启动服务.png)
 以上服务不需要按某种特定的顺序依次执行，全部启动即可；启动后端服务之后可启动[H5](https://github.com/xiexianbao/kuge-mall-h5)和[后台管理](https://github.com/xiexianbao/kuge-mall-admin)前端项目
+[mall-gateway](mall-gateway)
 
+## 联系作者
+|                           微信好友                           |
+|:--------------------------------------------------------:|
+| <img src="/document/assets/img/微信二维码.jpg" width="200px"> |
+
+## 鸣谢
+本项目参考了以下项目，在此鸣谢~
+* B站[谷粒商城](https://www.bilibili.com/video/BV1np4y1C7Yf/?spm_id_from=333.337.search-card.all.click&vd_source=11a060accac2997d6a7169be1a817da7)项目
+* Github[mall](https://github.com/macrozheng/mall)项目
+* B站[微信/支付宝支付](https://www.bilibili.com/video/BV1US4y1D77m/?spm_id_from=333.337.search-card.all.click&vd_source=11a060accac2997d6a7169be1a817da7)项目
 
 ## H5端演示图例
 <div>
