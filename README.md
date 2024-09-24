@@ -6,6 +6,7 @@ kuge-mall是一套完整的在线购物系统，包括C端和管理端，客户�
 ![合集](/document/assets/img/admin/合集.jpg "合集")
 
 ## 目录
+1. [项目模块简介](#项目模块简介)
 1. [开发工具介绍](#开发工具介绍)
 1. [nacos配置](#nacos配置)
 1. [mysql配置](#mysql配置)
@@ -18,6 +19,21 @@ kuge-mall是一套完整的在线购物系统，包括C端和管理端，客户�
 1. [H5端演示图例](#H5端演示图例)
 1. [管理端演示图例](#管理端演示图例)
 
+
+## 项目模块简介
+``` lua
+mall
+├── mall-admin -- 后台管理服务
+├── mall-auth -- 权限认证服务
+├── mall-cart -- 购物车服务
+├── mall-common -- 公用模块
+├── mall-gateway -- 网关服务
+├── mall-member -- C端用户服务
+└── mall-order -- 订单服务
+└── mall-product -- 商品服务
+└── mall-sale -- 营销服务
+└── mall-thirdaprt -- 第三方集成服务，例如发送短信、文件上传
+```
 
 ## 开发工具介绍
 * jdk8
