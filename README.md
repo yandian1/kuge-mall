@@ -1,6 +1,6 @@
 # 酷鸽商城后端服务
 
-kuge-mall是一套完整的在线购物系统，包括C端和管理端，客户可在C端体验商品浏览、下单支付、申请售后、参与秒杀、使用优惠券等完整的购物流程，管理员可在后台创建商品、定制营销规则、管理订单，管理店铺、创建活动，对商品、订单、用户进行管理；技术栈为SpringBoot+SpringCloud+SpringGateway+MySql+Redis+RabbitMQ+JWT+Nacos+OpenFeign+JSR303
+kuge-mall是一套完整的在线购物系统，包括C端和管理端，客户可在C端体验商品浏览、下单支付、申请售后、参与秒杀、使用优惠券等完整的购物流程，管理员可在后台创建商品、定制营销规则、管理订单，管理店铺、创建活动，对商品、订单、用户进行管理；技术栈为SpringBoot、SpringCloud、SpringGateway、MySql、Redis、RabbitMQ、JWT、Nacos、OpenFeign、JSR303
 
 ![合集](/document/assets/img/h5/合集.jpg "合集")
 ![合集](/document/assets/img/admin/合集.jpg "合集")
