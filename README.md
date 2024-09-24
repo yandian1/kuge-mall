@@ -1,7 +1,6 @@
 # 酷鸽商城后端服务
 
-
-该项目是一个在线购物系统。包括管理端和C端。管理员可在后台创建商品、营销规则定制、管理订单售后，管理店铺、运费模板；普通消费者可在C端系统浏览商品、参与秒杀、使用优惠券、支付订单、退换货。
+kuge-mall是一套完整的在线购物系统，包括C端和管理端，客户可在C端体验商品浏览、下单支付、申请售后、参与秒杀、使用优惠券等完整的购物流程，管理员可在后台创建商品、定制营销规则、管理订单，管理店铺、创建活动，对商品、订单、用户进行管理；技术栈为SpringBoot+SpringCloud+SpringGateway+MySql+Redis+RabbitMQ+JWT+Nacos+OpenFeign+JSR303
 
 ![合集](/document/assets/img/h5/合集.jpg "合集")
 ![合集](/document/assets/img/admin/合集.jpg "合集")
@@ -90,8 +89,11 @@ git clone git@github.com:xiexianbao/kuge-mall.git
 
 ## 启动服务
 ![启动服务.png](/document/assets/img/idea/启动服务.png)
-以上服务不需要按某种特定的顺序依次执行，全部启动即可；启动后端服务之后可启动[H5](https://github.com/xiexianbao/kuge-mall-h5)和[后台管理](https://github.com/xiexianbao/kuge-mall-admin)前端项目
-[mall-gateway](mall-gateway)
+以上服务不需要按某种特定的顺序执行，**全部启动即可**。
+
+后端服务启动好之后启动前端服务
+* [酷鸽商城H5端](https://github.com/xiexianbao/kuge-mall-h5)
+* [酷鸽商城管理端](https://github.com/xiexianbao/kuge-mall-admin)
 
 ## 联系作者
 |                           微信好友                           |
