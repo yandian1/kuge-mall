@@ -37,9 +37,25 @@ mall
 ```
 
 ## 技术栈
-| 技术                 | 说明               | 官网                                           |
-| -------------------- |------------------| ---------------------------------------------- |
-| SpringBoot           | 简化Spring开发的脚手架框架 | https://spring.io/projects/spring-boot         |
+| 技术                                 | 介绍               | 官网                              |
+|------------------------------------|------------------|---------------------------------|
+| SpringBoot                         | 简化Spring开发的脚手架框架 | https://spring.io/projects/spring-boot |
+| SpringCloud                        | 微服务框架            | https://spring.io/projects/spring-cloud |
+| SpringGateway                      | 微服务架构中网关         | https://spring.io/projects/spring-cloud-gateway |
+| MySQL                              | 关系型数据库           | https://www.mysql.com/cn |
+| Redis                              | 内存数据库            | https://redis.io  |
+| Redisson                           | 实现分布式锁           | https://github.com/redisson/redisson |
+| RabbitMQ                           | 消息队列             | https://www.rabbitmq.com |
+| jjwt                               | 实现JWT的maven包     | https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt |
+| Nacos                              | 配置服务中心           | https://nacos.io/docs/latest/what-is-nacos |
+| OpenFeign                          | 访问远程服务的HTTP客户端   | https://spring.io/projects/spring-cloud-openfeign |
+| Validator                         | 实现JSR303的框架      | https://spring.io/projects/spring-boot |
+| Lombok                             | 简化Spring开发的脚手架框架 | https://projectlombok.org |
+| Druid                              | 简化Spring开发的脚手架框架 | https://github.com/alibaba/druid/wiki/%E9%A6%96%E9%A1%B5 |
+| Wechatpay | 微信支付maven包       | https://spring.io/projects/spring-boot |
+| Maven                              | 项目的管理和构建工具       | https://maven.apache.org |
+| 阿里云OSS                             | 文件存储服务           | https://www.aliyun.com |
+| 阿里云SMS                             | 短信服务             | https://www.aliyun.com |
 
 ## 开发工具
 * jdk8
