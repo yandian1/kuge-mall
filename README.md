@@ -50,8 +50,8 @@ mall
 | Nacos                              | 配置服务中心           | https://nacos.io/docs/latest/what-is-nacos |
 | OpenFeign                          | 访问远程服务的HTTP客户端   | https://spring.io/projects/spring-cloud-openfeign |
 | Validator                         | 实现JSR303的框架      | https://spring.io/projects/spring-boot |
-| Lombok                             | 简化Spring开发的脚手架框架 | https://projectlombok.org |
-| Druid                              | 简化Spring开发的脚手架框架 | https://github.com/alibaba/druid/wiki/%E9%A6%96%E9%A1%B5 |
+| Lombok                             | 编译增强工具 | https://projectlombok.org |
+| Druid                              | 数据库连接池 | https://github.com/alibaba/druid/wiki/%E9%A6%96%E9%A1%B5 |
 | Wechatpay | 微信支付maven包       | https://spring.io/projects/spring-boot |
 | Maven                              | 项目的管理和构建工具       | https://maven.apache.org |
 | 阿里云OSS                             | 文件存储服务           | https://www.aliyun.com |
@@ -66,8 +66,10 @@ mall
 * maven3.9.6
 * intelliJ idea 2024.1
  
-[安装 mysql](/document/readme/安装mysql)  
-[安装 mysql](./document/readme/安装mysql)
+[安装 mysql](/document/readme/安装mysql.md)  
+[安装 mysql](./document/readme/安装mysql.md)
+
+[安装 mysql](./安装mysql.md)
 
 tips：需要先安装好上面的开发工具，再进行后面开发工具的配置
 
