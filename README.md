@@ -70,6 +70,7 @@ mall
 [安装 mysql](/document/readme/安装mysql.md)  
 [安装 nacos](/document/readme/安装nacos.md)  
 [安装 rabbitmq](/document/readme/安装rabbitmq.md)
+[安装 redis](/document/readme/安装redis.md)
 
 tips：需要先安装好上面的开发工具，再进行后面开发工具的配置
 
