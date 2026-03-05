@@ -10,8 +10,8 @@ spring:
       username: nacos
       password: nacos
       config:
-        server-addr: 192.168.198.128:30284
-        namespace: b8de26be-49e2-4ed3-befa-2845a8672de8
+        server-addr: 127.0.0.1:8848
+        namespace: public
         # 用于共享的配置文件
         shared-configs:
           - data-id: mall-mysql.yaml
@@ -24,5 +24,5 @@ spring:
             group: DEFAULT_GROUP
             refresh: true
       discovery:
-        server-addr: 192.168.198.128:30284
-        namespace: b8de26be-49e2-4ed3-befa-2845a8672de8
+        server-addr: 127.0.0.1:8848
+        namespace: public
